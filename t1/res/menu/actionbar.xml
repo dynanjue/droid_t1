@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/str_1"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/str_2"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_3"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_1"/>
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="105"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_1"/>
+    <item
+        android:id="@+id/action_help"
+        android:showAsAction="always"
+        android:title="@string/str_1"/>
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="106"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_1"/>
+
+    <group android:menuCategory="system" >
+        <item android:title="@string/str_1"/>
+    </group>
+    <group android:menuCategory="secondary" >
+        <item android:title="@string/str_1"/>
+        <item android:title="@string/str_1"/>
+    </group>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="strAry_1">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+    </string-array>
+
+    <integer-array name="intAry_1">
+        <item>@integer/int_1</item>
+        <item>@integer/int_2</item>
+        <item>@integer/int_3</item>
+        <item>@integer/int_4</item>
+    </integer-array>
+    <integer-array name="intAry_2">
+        <item>@id/id_btn_login</item>
+    </integer-array>
+
+    <array name="ary_1">
+        <item>@id/id_btn_login</item>
+        <item>@string/app_name</item>
+        <item>@integer/int_1</item>
+    </array>
+    <array name="arg_ids">
+        <item>@id/id_btn_login</item>
+        <item>@id/id_btn_logout</item>
+    </array>
+    <array name="arg_colors">
+        <item>@color/cl_red</item>
+        <item>@color/cl_green</item>
+        <item>@color/cl_blue</item>
+    </array>
+
+    <string-array name="argStr_1">
+        <item>@string/str_1</item>
+        <item>@string/str_2</item>
+        <item>@string/str_3</item>
+    </string-array>
+
+</resources>

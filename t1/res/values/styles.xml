@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="sty_myWinTitleBgStyle">
+        <item name="android:background">#00A7EB</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowTitleSize">50dp</item>
+        <!-- actionBar 取代了Title，若开启了ActionBar功能，则 在Activity获取 Title时 出错 -->
+        <!-- <item name="android:windowActionBar">true</item> -->
+        <item name="android:windowTitleBackgroundStyle">@style/sty_myWinTitleBgStyle</item>
+        <!-- <item name="android:windowTitleSize">100dp</item> -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

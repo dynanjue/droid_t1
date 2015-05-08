@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">t1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_cancel">取消</string>
+
+    <!--  -->
+    <string name="str_1">string 1</string>
+    <string name="str_2">string2</string>
+    <string name="str_3">string3</string>
+
+    <!-- <item name="str_1" format="string" type="string"/> -->
+
+
+    <!-- main -->
+    <string name="str_main_location">Location</string>
+    <string name="str_main_photo">Photo</string>
+    <string name="str_main_MIMEType">MIME Type</string>
+    <string name="str_main_actionBar">Action Bar</string>
+    <string name="str_main_surfaceView">SurfaceView</string>
+    <string name="str_main_navDrawer">Navigation Drawer</string>
+
+    <string-array name="aryStr_main">
+        <item>@string/str_main_location</item>
+        <item>@string/str_main_photo</item>
+        <item>@string/str_main_MIMEType</item>
+        <item>@string/str_main_actionBar</item>
+        <item>@string/str_main_surfaceView</item>
+        <item>@string/str_main_navDrawer</item>
+    </string-array>
+    <!-- photo -->
+    <string name="str_photo_btnChoice_text">选择图片</string>
+    <string name="str_photo_takePhoto">拍照</string>
+    <string name="str_photo_fromAlbum">从相册选择</string>
+
+    <string-array name="aryStr_photo_choiceItems">
+        <item>@string/str_photo_takePhoto</item>
+        <item>@string/str_photo_fromAlbum</item>
+        <item>@string/str_cancel</item>
+    </string-array>
+    <!-- actionbar -->
+    <string name="str_actionbar_btnActionSwitch_text_showOrHide">Show/Hide</string>
+    <!-- surfaceView -->
+    <string name="str_surfaceView_btnText_btn1">1</string>
+    <string name="str_surfaceView_btnText_btn2">2</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="plurals_1">
+        <item quantity="zero">%d 零 个</item>
+        <item quantity="one">%d 一个</item>
+        <item quantity="two">%d 两个</item>
+        <item quantity="few">%d 一些</item>
+        <item quantity="many">%d 许多</item>
+        <item quantity="other">%d 其他</item>
+    </plurals>
+
+</resources>
