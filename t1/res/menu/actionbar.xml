@@ -3,41 +3,47 @@
 
     <item
         android:id="@+id/menu_settings"
+        android:icon="@drawable/haha"
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/str_1"/>
     <item
         android:id="@+id/action_refresh"
+        android:icon="@drawable/haha"
         android:orderInCategory="101"
         android:showAsAction="ifRoom|withText"
         android:title="@string/str_2"/>
     <item
         android:id="@+id/action_about"
+        android:icon="@drawable/haha"
         android:orderInCategory="101"
         android:showAsAction="ifRoom"
         android:title="@string/str_3"/>
     <item
         android:id="@+id/action_search"
+        android:icon="@drawable/haha"
         android:orderInCategory="103"
         android:showAsAction="ifRoom"
         android:title="@string/str_1"/>
     <item
         android:id="@+id/action_edit"
+        android:icon="@drawable/haha"
         android:orderInCategory="105"
         android:showAsAction="ifRoom"
         android:title="@string/str_1"/>
     <item
         android:id="@+id/action_help"
-        android:showAsAction="always"
-        android:title="@string/str_1"/>
-    <item
-        android:id="@+id/action_email"
-        android:orderInCategory="106"
+        android:icon="@drawable/haha"
         android:showAsAction="ifRoom"
-        android:title="@string/str_1"/>
-
+        android:title="@string/str_actionbar_menu_detail"/>
+    <!-- android:actionProviderClass="com.example.t1.MyAP" -->
     <group android:menuCategory="system" >
-        <item android:title="@string/str_1"/>
+        <item
+            android:id="@+id/action_item_myProvider"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+            android:icon="@drawable/haha"
+            android:showAsAction="always|withText"
+            android:title="@string/str_2"/>
     </group>
     <group android:menuCategory="secondary" >
         <item android:title="@string/str_1"/>

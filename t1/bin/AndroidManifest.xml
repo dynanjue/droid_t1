@@ -36,8 +36,10 @@
         <activity
             android:name=".MIMETypeActivity"
             android:label="@string/str_main_MIMEType" />
+        <!-- android:icon 带圆角，android:logo 原始图片 -->
         <activity
             android:name=".ActionBarActivity"
+            android:icon="@drawable/haha"
             android:label="@string/str_main_actionBar" />
         <activity
             android:name=".SurfaceViewActivity"
@@ -46,6 +48,10 @@
         <activity
             android:name=".NavigationDrawerActivity"
             android:label="@string/str_main_navDrawer" />
+        <activity
+            android:name=".Fragment_Activity"
+            android:icon="@drawable/haha"
+            android:label="@string/str_main_fragment" />
     </application>
 
 </manifest>

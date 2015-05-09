@@ -21,6 +21,7 @@
     <string name="str_main_actionBar">Action Bar</string>
     <string name="str_main_surfaceView">SurfaceView</string>
     <string name="str_main_navDrawer">Navigation Drawer</string>
+    <string name="str_main_fragment">Fragment</string>
 
     <string-array name="aryStr_main">
         <item>@string/str_main_location</item>
@@ -29,6 +30,7 @@
         <item>@string/str_main_actionBar</item>
         <item>@string/str_main_surfaceView</item>
         <item>@string/str_main_navDrawer</item>
+        <item>@string/str_main_fragment</item>
     </string-array>
     <!-- photo -->
     <string name="str_photo_btnChoice_text">选择图片</string>
@@ -42,8 +44,14 @@
     </string-array>
     <!-- actionbar -->
     <string name="str_actionbar_btnActionSwitch_text_showOrHide">Show/Hide</string>
+    <string name="str_actionbar_menu_detail">Detail</string>
     <!-- surfaceView -->
     <string name="str_surfaceView_btnText_btn1">1</string>
     <string name="str_surfaceView_btnText_btn2">2</string>
+    <!-- fragment -->
+    <string name="str_fragment_add">Add</string>
+    <string name="str_fragment_del">Delete</string>
+    <string name="str_fragment_mod">Modify</string>
+    <string name="str_fragment_next">Next</string>
 
 </resources>
