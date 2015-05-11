@@ -52,6 +52,9 @@
             android:name=".Fragment_Activity"
             android:icon="@drawable/haha"
             android:label="@string/str_main_fragment" />
+        <activity
+            android:name=".MyView_Activity"
+            android:label="@string/str_main_myView" />
     </application>
 
 </manifest>

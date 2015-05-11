@@ -74,6 +74,9 @@ public class IndexActivity extends Activity {
 				case 6:
 					intent.setClass(mContext, Fragment_Activity.class);
 					break;
+				case 7:
+					intent.setClass(mContext, MyView_Activity.class);
+					break;
 				default:
 					return;
 				}

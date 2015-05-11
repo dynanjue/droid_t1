@@ -22,6 +22,7 @@
     <string name="str_main_surfaceView">SurfaceView</string>
     <string name="str_main_navDrawer">Navigation Drawer</string>
     <string name="str_main_fragment">Fragment</string>
+    <string name="str_main_myView">Custom View</string>
 
     <string-array name="aryStr_main">
         <item>@string/str_main_location</item>
@@ -31,6 +32,7 @@
         <item>@string/str_main_surfaceView</item>
         <item>@string/str_main_navDrawer</item>
         <item>@string/str_main_fragment</item>
+        <item>@string/str_main_myView</item>
     </string-array>
     <!-- photo -->
     <string name="str_photo_btnChoice_text">选择图片</string>
