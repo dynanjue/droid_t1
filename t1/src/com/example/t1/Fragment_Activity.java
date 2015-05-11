@@ -14,10 +14,10 @@ import android.view.MenuItem.OnActionExpandListener;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Toast;
 
 public class Fragment_Activity extends Activity {
 
-	@SuppressWarnings("unused")
 	private Context mContext;
 	private ActionBar mActionBar;
 	private FragmentManager mfm;
@@ -57,19 +57,21 @@ public class Fragment_Activity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 
 		MenuItem searchMenu = menu.findItem(R.id.action_fragment_search);
-		// SearchView sv = (SearchView) searchMenu.getActionView();
+		// final SearchView sv = (SearchView) searchMenu.getActionView();
 		searchMenu.setOnActionExpandListener(new OnActionExpandListener() {
 
 			@Override
 			public boolean onMenuItemActionExpand(MenuItem item) {
 				// TODO Auto-generated method stub
-				return false;
+				Toast.makeText(mContext, "e", Toast.LENGTH_SHORT).show();
+				return true;
 			}
 
 			@Override
 			public boolean onMenuItemActionCollapse(MenuItem item) {
 				// TODO Auto-generated method stub
-				return false;
+				Toast.makeText(mContext, "c", Toast.LENGTH_SHORT).show();
+				return true;
 			}
 		});
 

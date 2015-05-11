@@ -15,7 +15,6 @@ public class Two_Fragment extends Fragment {
 
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-
 		MenuItem setting = menu.findItem(R.id.action_fragment_settings);
 		setting.setVisible(false);
 	}
@@ -23,6 +22,7 @@ public class Two_Fragment extends Fragment {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setHasOptionsMenu(true);
 	}
 
 	@Override
